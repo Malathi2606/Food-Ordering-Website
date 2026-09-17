@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Foodie - Checkout</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+
+    <div class="logo">
+        🍔 <span>Foodie</span>
+    </div>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="cart.html" class="cart-link">🛒 Cart</a>
+        <a href="menu.html" class="nav-order-btn">Order Now →</a>
+    </div>
+
+</nav>
+    </header>
+
+
+    <!-- Checkout Header -->
+    <section class="checkout-header">
+
+        <p class="small-title">CHECKOUT</p>
+
+        <h2>Complete Your Order 🍽️</h2>
+
+        <p>Enter your details and place your order.</p>
+
+    </section>
+
+
+    <!-- Checkout -->
+    <section class="checkout-section">
+
+        <div class="checkout-container">
+
+
+            <!-- Customer Details -->
+
+            <div class="customer-form">
+
+                <h2>Delivery Details</h2>
+
+                <form>
+
+                    <label>Full Name</label>
+                    <input
+                        type="text"
+                        placeholder="Enter your full name"
+                    >
+
+                    <label>Email Address</label>
+                    <input
+                        type="email"
+                        placeholder="Enter your email"
+                    >
+
+                    <label>Phone Number</label>
+                    <input
+                        type="tel"
+                        placeholder="Enter your phone number"
+                    >
+
+                    <label>Delivery Address</label>
+                    <textarea
+                        rows="4"
+                        placeholder="Enter your complete address"
+                    ></textarea>
+
+                    <label>City</label>
+                    <input
+                        type="text"
+                        placeholder="Enter your city"
+                    >
+
+                    <label>PIN Code</label>
+                    <input
+                        type="text"
+                        placeholder="Enter PIN code"
+                    >
+
+
+                    <!-- Payment -->
+
+                    <h2 class="payment-title">
+                        Payment Method
+                    </h2>
+
+                    <div class="payment-options">
+
+                        <label class="payment-card">
+                            <input type="radio" name="payment">
+                            <span>💳</span>
+                            Credit / Debit Card
+                        </label>
+
+                        <label class="payment-card">
+                            <input type="radio" name="payment">
+                            <span>📱</span>
+                            UPI
+                        </label>
+
+                        <label class="payment-card">
+                            <input type="radio" name="payment">
+                            <span>💵</span>
+                            Cash on Delivery
+                        </label>
+
+                    </div>
+
+                    <button type="submit" class="place-order">
+                        Place Order →
+                    </button>
+
+                </form>
+
+            </div>
+
+
+            <!-- Order Summary -->
+
+            <div class="checkout-summary">
+
+                <h2>Your Order</h2>
+
+                <div class="checkout-item">
+                    <span>🍕 Cheese Pizza × 1</span>
+                    <strong>₹249</strong>
+                </div>
+
+                <div class="checkout-item">
+                    <span>🍔 Classic Burger × 2</span>
+                    <strong>₹298</strong>
+                </div>
+
+                <div class="checkout-item">
+                    <span>🍟 French Fries × 1</span>
+                    <strong>₹99</strong>
+                </div>
+
+                <hr>
+
+                <div class="checkout-row">
+                    <span>Subtotal</span>
+                    <span>₹646</span>
+                </div>
+
+                <div class="checkout-row">
+                    <span>Delivery Fee</span>
+                    <span>₹40</span>
+                </div>
+
+                <div class="checkout-row">
+                    <span>Tax</span>
+                    <span>₹32</span>
+                </div>
+
+                <hr>
+
+                <div class="checkout-total">
+                    <span>Total</span>
+                    <span>₹718</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <!-- Professional Footer -->
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-column">
+            <div class="footer-logo">🍔 Foodie</div>
+
+            <p>
+                Delicious food, fresh ingredients and fast delivery.
+                Your favourite meals are just one click away.
+            </p>
+
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+
+
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="index.html#contact">Contact</a>
+            <a href="cart.html">Cart</a>
+        </div>
+
+
+        <div class="footer-column">
+            <h3>Popular Foods</h3>
+
+            <a href="menu.html">🍕 Cheese Pizza</a>
+            <a href="menu.html">🍔 Classic Burger</a>
+            <a href="menu.html">🍜 Veg Noodles</a>
+            <a href="menu.html">🍗 Chicken Biryani</a>
+        </div>
+
+
+        <div class="footer-column">
+            <h3>Contact Us</h3>
+
+            <p>📍 Foodie Street, Tamil Nadu</p>
+            <p>📞 +91 98765 43210</p>
+            <p>📧 support@foodie.com</p>
+            <p>🕐 10:00 AM - 11:00 PM</p>
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+        <p>© 2026 Foodie. All Rights Reserved.</p>
+
+        <p>
+            Designed & Developed by <strong>Malathi</strong> ❤️
+        </p>
+    </div>
+
+</footer>
+
+</body>
+</html>
